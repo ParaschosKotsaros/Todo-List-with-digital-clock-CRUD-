@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="todolist.css">
+    <script src="https://kit.fontawesome.com/020dc2aee3.js" crossorigin="anonymous"></script>
+
+
+    <title>Todo List</title>
+</head>
+<body>
+    <div class='container'>
+
+        <header class="text-center mb-4";>
+         <h1>ΤODO LIST</h1>
+        </header>
+
+    <!---search box-->
+    <form class="search my-5">
+        <input type="text" class="form-control m-auto " placeholder="search" name="searchi">
+       </form>
+
+    
+    <!---todo list-->
+    <ul class="todos list-group mx-auto">
+     <li class="list-group-item d-flex align-items-center justify-content-between">
+         <span>Todo 1</span><i class="fas fa-trash-restore-alt delete"></i>
+         </li>
+     <li class="list-group-item d-flex justify-content-between align-items-center">
+         <span>Todo 2</span>
+         <i class="fas fa-trash-restore-alt delete"></i>
+         </li> 
+     <li class="list-group-item d-flex justify-content-between align-items-center">
+         <span>Todo 3</span>
+         <i class="fas fa-trash-restore-alt delete"></i>
+        </li>
+    </ul>
+
+    <!---add todo-->
+    <form class="addtodo text-center my-5">
+        <span>Use this to add another Todo</span>
+        <input type="text" class="add form-control m-auto" name="add" placeholder="add Todo">
+    </form>
+
+   <div class="clock" name ="clock">
+
+   </div>
+
+
+</div>
+    <script src="todolist.js"></script>
+</body>
+</html>

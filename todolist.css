@@ -1,0 +1,26 @@
+.container{
+
+    max-width: 400px;
+}
+body{
+    background-color: lightblue;
+}
+ 
+.delete{
+    cursor: pointer;
+}
+
+.filtered {
+   display:none  !important;
+}
+
+.clock{
+    margin: 50px auto;
+    text-align: center;
+    color: #000000;
+  background-color: #ffffff;
+  font-family: 'digital-7', sans-serif;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
